@@ -2,3 +2,5 @@
  30 DIAS SEGUIDOS A APRENDER HTML
 
 Dia 1-> Estruturação de código e Formatação de texto
+
+Dia 2-> Formatação de texto (continuação)
