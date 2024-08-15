@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="David Fidalgo">
+    <meta name="keyword" content="Formulario, HTML">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form >
+
+        <label for="input_nome">Nome:</label>
+        <input id="input_nome" type="text" placeholder="Introduza o nome" required>
+        <br><br> 
+        <!-- 
+            label->texto simples
+                for-> "ativa" a caixa de texto com o nome mencionado
+            input-> caixa de texto do tipo texto
+                id-> nome da caixa de texto
+                placeholder-> Marca de agua da caixa de texto
+                required-> Obriga o utilizador a preencher o campo
+        -->
+        <label for="input_apelido">Apelido:</label>
+        <input id="input_apelido" type="text" placeholder="Introduza o apelido">
+        <br><br>
+
+        <label for="input_email">Email:</label>
+        <input id="input_email" type="email" placeholder="Introduza o email" required>
+        <!-- caixa de texto do tipo email-->
+        <br><br>
+
+        <label for="input_senha">Senha:</label>
+        <input id="input_senha" type="password" placeholder="Introduza a senha" required>
+        <!-- caixa de texto do tipo password (aparece aquelas "bolinhas")-->
+        <br><br>
+        <label>Sexo:</label>
+        <br>
+
+        <input type="radio" id="masc" name="sexo" value="Masculino">
+        <label for="masc">Masculino</label>
+        <input type="radio" id="fem" name="sexo" value="Feminino">
+        <label for="fem">Feminino</label>
+        <input type="radio" id="ND" name="sexo" value="ND">
+        <label for="ND">N/D</label>
+        <!--Radio Buttons em HTML-->
+
+        <br><br>
+        <label>Cor Favorita</label>
+        <br>
+        <select name="Cores" required>
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="Azul">Azul</option>
+            <option value="Vermelho">Vermelho</option>
+            <option value="Verde">Verde</option>
+        <!--Comboboxs em HTML-->
+
+        </select>
+        <br><br>
+        <label>Digite Algo que necessitamos de saber</label><br>
+        <textarea rows="10" cols="50" placeholder="Introduza aqui a sua mensagem"></textarea>
+        <br><br>
+        <!-- Caixas de texto grandes-->
+        <input id="it1" type="checkbox" name="it1" value="TermosECondicoes" required><label> Aceito os </label><a href="termoscondicoes.html">Termos e condições</a>
+        <br>
+        <input id="it2" type="checkbox" name="it2" value="Ofertas" required><label> Autorizo o envio de propostas de ofertas exclusivas</label>
+        <br>
+        <!--Checkboxs em HTML-->
+
+        <input type="submit" value="Enviar Formulario">
+    </form>
+    <hr>
+    <button>Clica aqui</button>
+</body>
+</html>
