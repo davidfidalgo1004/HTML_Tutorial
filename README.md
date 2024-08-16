@@ -14,3 +14,5 @@ Dia 5-> Tabelas e Listas (envolvendo conteudos do dia 4 e 3)
 Dia 6-> Iframes
 
 Dia 7->Formularios
+
+Dia 8->Video e Audios
