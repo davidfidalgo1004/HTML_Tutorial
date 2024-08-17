@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML SEMANTICO</title>
+    <style> 
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        .topo{
+            background-color: aqua;
+            padding: 30px;
+            text-align: center;
+        } 
+
+        .menu{
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .menu a{
+            color: white;
+            padding: 14px 16px;
+            float:left;
+            display: block;
+            text-decoration: none;
+
+        }
+        .coluna{
+            float: left;
+            width:50%;
+
+        }
+    </style><!--IMPORTANTE PARA CSS-->
+    <!-- 
+        body
+            margin-> Margem da pagina
+        .topo
+            backgroud color-> A cor do fundo
+            padding: o espaçamento da divisória
+        .menu a-> Destinado aos tags dos links
+            color-> cor letra
+            float-> flotoação
+            display-> Neste caso em bloco
+            
+            -->
+</head>
+<body>
+    <header class="topo">
+        <h1>TOPO</h1>
+        <p>Aqui é a parte do topo</p>
+    </header> <!--Topo da pagina (mesma coisa que div)-->
+    <nav class="menu">
+        <a href="../DIA_8/dia8.html">Aula 8</a>
+        <a href="../DIA_7/dia7.html">Aula 7</a>
+        <a href="../DIA_6/dia6.html">Aula 6</a>
+        <a href="../DIA_5/dia5.html">Aula 5</a>
+    </nav> <!--Parte da navegação da pagina (mesma coisa que div)-->
+    <section class="coluna">
+        <h2>COLUNA 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis doloremque dolorem, nihil eligendi totam ratione nisi, corporis vero officiis vel ea quos sunt rem repellat quas enim ad! Vitae, illo?</p>
+        <p>Magni, quidem, ipsa magnam impedit autem reiciendis veniam odit tenetur deleniti voluptatem facere quisquam odio praesentium voluptate, quae nostrum voluptates nulla consequatur necessitatibus quaerat ducimus. Quasi dicta obcaecati molestiae? Maxime.</p>
+        <p>Debitis suscipit dolorem deserunt quis velit harum, alias ullam architecto explicabo dolor necessitatibus quam nisi minima corrupti amet officia. Delectus dolorem illo inventore provident nostrum! Ipsum reiciendis odio vel magni.</p>
+        <p>Soluta, commodi delectus nostrum nam beatae at cupiditate? Nobis libero, est magnam fugiat officia quo tempora voluptatem molestiae corrupti eius, provident pariatur! Omnis quisquam odit modi molestiae laboriosam qui fugiat?</p>
+        <p>Nostrum voluptas ab ipsum ullam fugit, doloremque eaque nemo esse suscipit nesciunt sed? Dignissimos ducimus ex molestiae maxime dolorem enim, assumenda odit vitae inventore accusamus officia, quaerat rem laudantium illo.</p>
+    </section>
+    
+    <section class="coluna">
+        <h2>COLUNA 2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quod aliquam unde natus error eius, nemo temporibus dolorem ratione a sint! Tempore et atque dolores nisi vero nobis voluptatibus omnis!</p>
+        <p>Debitis, mollitia a, quis incidunt officiis quam fugiat nihil, ducimus suscipit quae doloribus. Cupiditate soluta corporis quisquam omnis necessitatibus animi reiciendis harum sapiente totam provident repudiandae, explicabo tenetur eos itaque?</p>
+        <p>Ipsa tenetur amet quidem cum ipsum recusandae assumenda, aut odit quae sit et eum distinctio minus tempora ab placeat cupiditate magni quia dolorum quo. Eius deserunt ullam quam sequi neque.</p>
+    </section> <!--Sessão da pagina (mesma coisa que div)-->
+</body>
+</html>

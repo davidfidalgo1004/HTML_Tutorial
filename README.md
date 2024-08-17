@@ -16,3 +16,5 @@ Dia 6-> Iframes
 Dia 7->Formularios
 
 Dia 8->Video e Audios
+
+Dia 9->Semantica do HTML
