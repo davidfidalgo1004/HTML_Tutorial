@@ -23,4 +23,4 @@ Dia 10->Introdução ao CSS: CSS Inline, Externo e Interno
 
 Dia 11->CSS:Classes e Seletores
 
-Dia 12->
+Dia 12->CSS:Propriedade Color e Propriedade Background
