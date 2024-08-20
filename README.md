@@ -22,3 +22,5 @@ Dia 9->Semantica do HTML
 Dia 10->Introdução ao CSS: CSS Inline, Externo e Interno
 
 Dia 11->CSS:Classes e Seletores
+
+Dia 12->
