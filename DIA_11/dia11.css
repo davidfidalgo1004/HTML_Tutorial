@@ -1,0 +1,24 @@
+body{
+    background-color: #ccc;
+}
+
+h1, p{
+    color:brown;
+    text-align: justify;
+}
+
+.pcentral{
+    color:blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+#sublinhado{
+    background-color: yellowgreen;
+    color: blueviolet;
+}
+
+#pend{
+    color:rgb(230,230,260);
+    text-align:end;
+}
