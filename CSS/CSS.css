@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap'); /*Vai se buscar ao google font para ter uma fonte desejável*/
+
 body{
     background-color: #ccc; /*Podemos aceder a este codigo nas paletas online*/
 }
 
 h1{
+    
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /*Estas 3 linhas de codigo, o proprio google font fornece*/
     color:brown;
     text-align: center;
     border: 1px solid black; /*Existe várias bordas, solid, dashed, etc...*/
@@ -62,6 +69,9 @@ border-radius->o grau que pretendemos o vertices da borda
     background-color: aquamarine;
     background-image: url("../DIA_4/imagens/gold-star.png");
     background-size: cover; 
+    text-indent:30px; /*para identificar um paragrafo*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Tipo de letra*/
+    font-size:25px; /*Tamanho da letra*/
     /*
         contain-> Repete se consoante o tamanho do background
         cover-> Imagem Original
