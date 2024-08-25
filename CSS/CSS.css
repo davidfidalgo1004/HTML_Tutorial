@@ -23,7 +23,14 @@ h2{
     border-right:5px solid blue;
     border-bottom: 2px dashed black; 
     border-radius: 10%;
+    padding-top:10px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 40px;
+    /*Ou
+    padding:10px 30px 15px 40px*/
 }
+/*Padding tem a haver com o espaço dentro do h2*/
 
 /*podemos aplicar diferentes propriedades a cada espaço das bordas
 border-top->borda de cima
@@ -61,4 +68,19 @@ border-radius->o grau que pretendemos o vertices da borda
         Depois existe os pixeis necessarios (p.e., 30px ou 40%)
     */
     background-position: center;
+}
+
+.botao{
+    margin-top:30px;
+    margin-left:100px;
+    background-color: black;
+    margin-bottom:50px;
+    color:white;
+    padding:5px;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color:blue;
 }
