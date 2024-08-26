@@ -94,3 +94,57 @@ border-radius->o grau que pretendemos o vertices da borda
 .botao:hover{
     background-color:blue;
 }
+
+a.botao1{
+    background-color: darkgreen;
+    color:white;
+    padding:10px;
+    text-decoration: none;
+    border: 4px solid greenyellow;
+    border-radius:5px;
+}
+
+a.botao1:hover{
+    background-color: rgb(6,211,6);
+    color:white;
+    padding:12px;
+    border: 4px solid rgb(80,129,6);
+}
+
+a.botao2{
+    text-decoration: none;
+    padding:10px;
+    border:5px double blue;
+    color:blue;
+}
+
+a.botao2:hover{
+    text-decoration: underline;
+    padding:8px;
+    background:blue;
+    color:white;
+}
+
+a.botao3{
+    color:black;
+    text-decoration:none;
+}
+
+a.botao3:hover{
+    border-bottom:3px solid red;
+}
+
+a.botao4{
+    text-decoration:none;
+    color:blue;
+    font-size:14px;
+}
+
+a.botao4:hover{
+    font-size:22px;
+    font-weight: bold;
+}
+
+a.botao5{
+    cursor:progress;
+}

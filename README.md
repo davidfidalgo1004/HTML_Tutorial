@@ -30,3 +30,5 @@ Dia 13->CSS:Propriedade Margin e Propriedade Border
 Dia 14->CSS:Propriedade Padding; Botão
 
 Dia 15->CSS:Propriedade Font; Textos
+
+Dia 16->CSS:Botão-> Sintese de propriedades
