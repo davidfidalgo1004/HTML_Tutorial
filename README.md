@@ -32,3 +32,5 @@ Dia 14->CSS:Propriedade Padding; Botão
 Dia 15->CSS:Propriedade Font; Textos
 
 Dia 16->CSS:Botão-> Sintese de propriedades
+
+Dia 17->CSS:Display->Inicialização

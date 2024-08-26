@@ -1,0 +1,32 @@
+.borda{
+    border:1px solid red;
+}
+
+p{
+    
+}
+
+#p1{
+    display:block;
+}
+
+#p1:hover{
+    background-color: aqua;
+}
+
+li{
+    display:inline;
+    
+}
+
+.azul{
+    background-color: blue;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
