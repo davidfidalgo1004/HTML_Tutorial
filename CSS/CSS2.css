@@ -30,3 +30,14 @@ li{
 .verde{
     background-color: green;
 }
+
+
+.ex1{
+    max-width: 600px;
+}
+/*A diferença entre max-width e width
+Testar!
+*/
+.ex2{
+    width:600px
+}

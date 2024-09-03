@@ -34,3 +34,5 @@ Dia 15->CSS:Propriedade Font; Textos
 Dia 16->CSS:Botão-> Sintese de propriedades
 
 Dia 17->CSS:Display->Inicialização
+
+Dia 18->CSS:Max-Width
