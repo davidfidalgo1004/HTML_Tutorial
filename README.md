@@ -38,3 +38,5 @@ Dia 17->CSS:Display->Inicialização
 Dia 18->CSS:Max-Width
 
 Dia 19->CSS:Position
+
+Dia 20->CSS:Overflow; Float
