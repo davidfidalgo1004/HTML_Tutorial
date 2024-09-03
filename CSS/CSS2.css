@@ -41,3 +41,52 @@ Testar!
 .ex2{
     width:600px
 }
+
+.container{
+    position:relative;
+    display: inline-block;
+    background:blue;
+    width: 100%;
+    height:400px;
+}
+
+.div1{
+    position:relative;
+    left:5px;
+    width: 30%;
+    height:100px;
+    background:yellow;
+    display: inline-block;
+    z-index:1;
+}
+
+.div2{
+    position:sticky;
+    top:0;
+
+    background:rgb(247, 6, 239);
+    display: inline-block;
+    width: 30%;
+    height:100px;
+}
+
+.div3{
+    display: inline-block;
+    background: white;
+    width: 30%;
+    height:100px;
+    position:absolute;
+    top:150px;
+    right:350px;
+}
+
+.whats{
+    background-color:green;
+    color:white;
+    width:70px;
+    height:70px;
+    position:fixed;
+    bottom:2px;
+    right:10px
+
+}
