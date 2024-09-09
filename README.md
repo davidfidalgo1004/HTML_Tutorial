@@ -44,3 +44,5 @@ Dia 20->CSS:Overflow; Float
 Dia 21->CSS:Opacity
 
 Dia 22->CSS:Dropdown
+
+Dia 23->CSS:Especificidade (prioridades)
