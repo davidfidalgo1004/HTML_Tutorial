@@ -48,3 +48,5 @@ Dia 22->CSS:Dropdown
 Dia 23->CSS:Especificidade (prioridades)
 
 Dia 24->CSS:!Important; Efeito Gradiente
+
+Dia 25->CSS:Sombras
