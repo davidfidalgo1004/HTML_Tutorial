@@ -4,4 +4,34 @@
 
 #blue{
     background: blue;
+    color:white;
 }
+
+h1{
+    color:green !important;
+}
+/*O Background segue a especificidade, o color segue o important, ou seja os outros color é ignorado*/
+/*Caso acha vários importants, é considerado a especificidade*/
+
+#gradiente{
+    width: 100%;
+    height:300px;
+    background-image: linear-gradient(100deg,blue, red, green);
+}
+/*linear-gradient
+Dentro da função pode se colocar a quantidade de cores que a gente entender
+
+Direçoes existentes->
+ -To right
+ -To left
+ -To Bottom 
+ -To top
+ -To top right
+ -To top left
+ -To bottom right
+ -To bottom left
+ -Grau (p.e., 180deg)
+ 
+ Pode se usar a questão dos graus com o radial-gradient (faz o efeito em circulo)
+ Em cada cor, pode se aplicar um grau que a gente pretende (p.e., blue 50%)
+ */
