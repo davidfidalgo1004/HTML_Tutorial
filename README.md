@@ -52,3 +52,5 @@ Dia 24->CSS:!Important; Efeito Gradiente
 Dia 25->CSS:Sombras
 
 Dia 26->CSS:Efeito Texto
+
+Dia 27->CSS:Media-Queries
