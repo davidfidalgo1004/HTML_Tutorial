@@ -50,3 +50,5 @@ Dia 23->CSS:Especificidade (prioridades)
 Dia 24->CSS:!Important; Efeito Gradiente
 
 Dia 25->CSS:Sombras
+
+Dia 26->CSS:Efeito Texto
