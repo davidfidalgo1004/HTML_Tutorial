@@ -54,3 +54,6 @@ Dia 25->CSS:Sombras
 Dia 26->CSS:Efeito Texto
 
 Dia 27->CSS:Media-Queries
+
+CONCLUSÃO DE APRENDIZAGEM
+COMEÇO DE PROJETOS A 23/09
